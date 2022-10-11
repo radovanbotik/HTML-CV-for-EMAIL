@@ -46,14 +46,14 @@
         display: inline-block;
       }
       /* GENERAL LAYOUT */
-      div.wrap {
+      .wrap {
         width: 100%;
         table-layout: fixed;
         background-color: #a4aab1;
         /* padding-bottom: 20px;
         padding-top: 20px; */
       }
-      table.main {
+      .main {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
@@ -190,8 +190,8 @@
     </style>
   </head>
   <body>
-    <div class="wrap">
-      <table class="main">
+    <center class="wrap">
+      <table class="main" style="max-width: 600px" width="100">
         <!-- TOPMOST BORDER  -->
         <tr>
           <td height="8" style="background-color: #581c5c"></td>
@@ -319,11 +319,6 @@
                               style="text-align: center; vertical-align: middle"
                             >
                               <h4>HTML</h4>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Veniam quisquam magnam eius?
-                                Voluptate, nisi nesciunt.
-                              </p>
                             </td>
                           </tr>
                         </table>
@@ -351,12 +346,7 @@
                             <td
                               style="text-align: center; vertical-align: middle"
                             >
-                              <h4>CSS & SASS</h4>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Veniam quisquam magnam eius?
-                                Voluptate, nisi nesciunt.
-                              </p>
+                              <h4>CSS</h4>
                             </td>
                           </tr>
                         </table>
@@ -385,11 +375,6 @@
                               style="text-align: center; vertical-align: middle"
                             >
                               <h4>Javascript</h4>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Veniam quisquam magnam eius?
-                                Voluptate, nisi nesciunt.
-                              </p>
                             </td>
                           </tr>
                         </table>
@@ -403,87 +388,99 @@
         </tr>
         <!-- BORDER -->
         <tr>
-          <td height="8" style="background-color: #581c5c"></td>
+          <td height="16" style="background-color: #581c5c"></td>
         </tr>
-        <!-- ABOUT ME & PROJECTS-->
+        <!-- ABOUT ME-->
         <tr>
           <td class="padding">
-            <table width="100%">
-              <td class="two-columns">
-                <!-- about -->
-                <table class="column" style="padding: 0px 30px">
-                  <tr>
-                    <td style="padding: 10px; text-align: center">
-                      <img
-                        class="icon"
-                        src="https://i.ibb.co/T4MZnPg/user-shape.png"
-                        alt="ikona pre sekciu o uchádzačovi"
-                        width="16"
-                      />
-                      <h4 style="display: inline-block">Zopár slôv o mne</h4>
-                    </td>
-                  </tr>
+            <!-- about -->
+            <table class="column" style="padding: 0px 30px">
+              <tr>
+                <td style="padding: 10px; text-align: center">
+                  <img
+                    class="icon"
+                    src="https://i.ibb.co/T4MZnPg/user-shape.png"
+                    alt="ikona pre sekciu o uchádzačovi"
+                    width="16"
+                  />
+                  <h4 style="display: inline-block">Zopár slôv o mne</h4>
+                </td>
+              </tr>
 
-                  <tr>
-                    <td style="text-align: middle">
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Nemo natus nostrum perferendis eius deserunt odio
-                        est corporis dolor eveniet delectus qui in modi vero,
-                        perspiciatis sit placeat quos quod. Ullam.
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-                <!-- projects -->
-                <table
-                  class="column"
-                  style="padding: 0 30px; vertical-align: top"
-                >
-                  <tr>
-                    <td style="padding: 10px; text-align: center">
-                      <img
-                        class="icon"
-                        src="https://i.ibb.co/3MpXtHr/tack-save-button-1.png"
-                        alt="ikona pre sekciu o projektoch"
-                        width="16"
-                      />
-                      <h4 style="display: inline-block">Nedávne projekty</h4>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center">
-                      <p style="text-align: center">#1 Landing Page</p>
-                      <p style="text-align: center; padding-bottom: 10px">
-                        <a
-                          style="color: #f755f8"
-                          href="https://melodic-empanada-155630.netlify.app/"
-                          target="_blank"
-                          >Zobraziť projekt</a
-                        >
-                      </p>
-                      <p style="text-align: center">#2 Landing Page</p>
-                      <p style="text-align: center; padding-bottom: 10px">
-                        <a
-                          style="color: #f755f8"
-                          href="https://melodic-khapse-7e1369.netlify.app/"
-                          target="_blank"
-                          >Zobraziť projekt</a
-                        >
-                      </p>
-                      <p style="text-align: center">#3 Ponuka/Menu</p>
-                      <p style="text-align: center; padding-bottom: 10px">
-                        <a
-                          style="color: #f755f8"
-                          href="https://zesty-sunshine-1bc3e6.netlify.app/"
-                          target="_blank"
-                          >Zobraziť projekt</a
-                        >
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
+              <tr>
+                <td style="text-align: middle">
+                  <p
+                    style="
+                      padding: 0 30px;
+                      font-weight: bolder;
+                      line-height: 1.6;
+                    "
+                  >
+                    Som nadšenec pre frontend a webové technológie a momentálne
+                    hľadám príležitosť ako nakopnúť svoju kariéru a uplatniť
+                    svoje schopnosti na skutočných projektoch. <br />
+                    Písaniu kódu sa venujem viac než jeden rok, počas ktorého
+                    som prešiel
+                    <span style="color: #f755f8">desiatkami</span> hodín kurzov
+                    a <span style="color: #f755f8">tisícami</span> riadkov kódu.
+                    <br />
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- BORDER -->
+        <tr>
+          <td height="16" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- PROJECTS -->
+        <tr>
+          <td>
+            <table class="column" style="padding: 0 30px; vertical-align: top">
+              <tr>
+                <td style="padding: 10px; text-align: center">
+                  <img
+                    class="icon"
+                    src="https://i.ibb.co/3MpXtHr/tack-save-button-1.png"
+                    alt="ikona pre sekciu o projektoch"
+                    width="16"
+                  />
+                  <h4 style="display: inline-block">Nedávne projekty</h4>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align: center">
+                  <p style="text-align: center">#1 Landing Page</p>
+                  <p style="text-align: center; padding-bottom: 10px">
+                    <a
+                      style="color: #f755f8"
+                      href="https://melodic-empanada-155630.netlify.app/"
+                      target="_blank"
+                      >Zobraziť projekt</a
+                    >
+                  </p>
+                  <p style="text-align: center">#2 Landing Page</p>
+                  <p style="text-align: center; padding-bottom: 10px">
+                    <a
+                      style="color: #f755f8"
+                      href="https://melodic-khapse-7e1369.netlify.app/"
+                      target="_blank"
+                      >Zobraziť projekt</a
+                    >
+                  </p>
+                  <p style="text-align: center">#3 Ponuka/Menu</p>
+                  <p style="text-align: center; padding-bottom: 10px">
+                    <a
+                      style="color: #f755f8"
+                      href="https://zesty-sunshine-1bc3e6.netlify.app/"
+                      target="_blank"
+                      >Zobraziť projekt</a
+                    >
+                  </p>
+                </td>
+              </tr>
             </table>
           </td>
         </tr>
@@ -511,11 +508,13 @@
                     </td>
                   </tr>
                   <tr>
-                    <td style="text-align: center">
-                      <p>Gymnázium Jána Hollého</p>
-                      <p>2008-2012</p>
-                      <p>Trnava</p>
-                    </td>
+                    <td style="text-align: center">Gymnázium Jána Hollého</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center">2008-2012</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center">Trnava</td>
                   </tr>
                 </table>
                 <!-- languages -->
@@ -569,7 +568,11 @@
                 <!-- courses -->
                 <table
                   class="column"
-                  style="padding: 0 30px; vertical-align: top"
+                  style="
+                    padding: 0 30px;
+                    vertical-align: top;
+                    text-align: center;
+                  "
                 >
                   <tr>
                     <td style="padding: 10px; text-align: center">
@@ -585,33 +588,45 @@
                   </tr>
                   <tr>
                     <td style="text-align: center">
-                      <p>Javascript</p>
-                      <p>
-                        <a
-                          style="color: #f755f8; display: block"
-                          href="https://www.udemy.com/certificate/UC-192ffbd0-401d-42d7-b0a2-1483ef07114e/"
-                          target="_blank"
-                          >Zobraziť certifikát</a
-                        >
-                      </p>
-                      <p>
-                        <a
-                          style="color: #f755f8; display: block"
-                          href="https://www.udemy.com/certificate/UC-9a35a05f-08c4-4256-859b-0b79ac5155ef/"
-                          target="_blank"
-                          >Zobraziť certifikát</a
-                        >
-                      </p>
+                      <tr>
+                        <td style="text-align: center">Javascript</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            style="color: #f755f8"
+                            href="https://www.udemy.com/certificate/UC-192ffbd0-401d-42d7-b0a2-1483ef07114e/"
+                            target="_blank"
+                            >Zobraziť certifikát</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            style="color: #f755f8"
+                            href="https://www.udemy.com/certificate/UC-9a35a05f-08c4-4256-859b-0b79ac5155ef/"
+                            target="_blank"
+                            >Zobraziť certifikát</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 10px; text-align: center">
+                          CSS
+                        </td>
+                      </tr>
 
-                      <p style="padding-top: 10px">CSS</p>
-                      <p>
-                        <a
-                          style="color: #f755f8; display: block"
-                          href="https://www.udemy.com/certificate/UC-c90250bd-92bf-417a-9732-31778af2ec44/"
-                          target="_blank"
-                          >Zobraziť certifikát</a
-                        >
-                      </p>
+                      <tr>
+                        <td>
+                          <a
+                            style="color: #f755f8"
+                            href="https://www.udemy.com/certificate/UC-c90250bd-92bf-417a-9732-31778af2ec44/"
+                            target="_blank"
+                            >Zobraziť certifikát</a
+                          >
+                        </td>
+                      </tr>
                     </td>
                   </tr>
                 </table>
@@ -660,7 +675,7 @@
         </tr>
         <!-- BORDER -->
         <tr>
-          <td height="8" style="background-color: #581c5c"></td>
+          <td height="16" style="background-color: #581c5c"></td>
         </tr>
         <!-- MORE -->
         <tr>
@@ -753,6 +768,6 @@
           <td height="8" style="background-color: #581c5c"></td>
         </tr>
       </table>
-    </div>
+    </center>
   </body>
 </html>

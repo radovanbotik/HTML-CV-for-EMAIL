@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv template</title>
+    <style>
+      /* GENERAL STYLES */
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      table {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-spacing: 0;
+        border: 0;
+        border-collapse: collapse;
+      }
+      tr,
+      td,
+      th {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-weight: 400;
+      }
+      h4 {
+        padding: 2px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        display: inline-block;
+      }
+      /* GENERAL LAYOUT */
+      div.wrap {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #a4aab1;
+        padding-bottom: 60px;
+      }
+      table.main {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: monospace;
+        color: #581c5c;
+        background-color: #eee5e7;
+        box-shadow: 0px 0px 10px #eee5e73c;
+      }
+      /* BUILDING BLOCKS */
+      .two-columns {
+        width: 100%;
+        font-size: 0;
+        text-align: center;
+      }
+      .two-columns .column {
+        /* width: 100%; */
+        max-width: 280px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        color: #581c5c;
+
+        /* text-align: center; */
+      }
+      /* .column * {
+        text-align: center;
+        vertical-align: middle;
+      } */
+
+      .three-columns {
+        width: 100%;
+        font-size: 0;
+        text-align: center;
+      }
+      .three-columns .column {
+        max-width: 180px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        color: #581c5c;
+        margin: 0 auto;
+        text-align: center;
+        /* text-align: left; */
+      }
+      td.headings {
+        text-align: left;
+      }
+      td.contact {
+        text-align: left;
+      }
+
+      .contact .link {
+        /* display: inline-block; */
+        /* padding-bottom: 16px; */
+        color: #581c5c;
+        text-decoration: none;
+        font-size: 16px;
+        vertical-align: top;
+      }
+
+      .icon {
+        width: 16px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      /* MODIFIER */
+      .padding {
+        padding: 20px 10px;
+      }
+      .padding-bottom-top {
+        padding: 10px 0px;
+      }
+      .padding-sides-bottom {
+        padding: 0px 20px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <table class="main">
+        <!-- TOPMOST BORDER  -->
+        <tr>
+          <td height="8" style="background-color: #581c5c"></td>
+        </tr>
+
+        <!-- PHOTO & CONTACT -->
+        <tr>
+          <td class="padding">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <!-- image of applicant -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding-sides-bottom">
+                        <img
+                          src="https://i.ibb.co/1vTMZW4/transaprent-sm.png"
+                          alt="Obrázok uchádzača"
+                          title="Obrázok uchádzača"
+                          width="240"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- contact details -->
+                  <table class="column">
+                    <tr>
+                      <td class="headings padding-sides-bottom">
+                        <h1>RADOVAN BOTÍK</h1>
+                        <h3>Frontend Developer</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="contact padding-sides-bottom">
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/N1KZRcd/smartphone.png"
+                          alt=""
+                          width="16"
+                        />
+                        &nbsp
+                        <a href="tel:+421910931580" class="link" target="_blank"
+                          >+421910931580</a
+                        >
+                        <br />
+                        <br />
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/CMSQWVn/message.png"
+                          alt=""
+                          width="16"
+                        />
+                        &nbsp
+                        <a
+                          class="link"
+                          href="mailto:radovanbotik@gmail.com"
+                          target="_blank"
+                          >radovanbotik@gmail.com</a
+                        >
+                        <br />
+                        <br />
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/09dvKN4/placeholder.png"
+                          alt=""
+                          width="16"
+                        />
+                        &nbsp
+                        <a
+                          class="link"
+                          href="https://goo.gl/maps/TvvYJP1du9bqxL7w6"
+                          target="_blank"
+                          >Ulica Konštantína Čulena 17, 917 01 Trnava</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="4" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- HTML & CSS & JS -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <!-- html -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <img
+                                src="https://i.ibb.co/3zqQ2H1/html-5.png"
+                                alt="HTML 5 Badge"
+                                title="Skúsenosť s HTML"
+                                width="64"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <h4>HTML</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Veniam quisquam magnam eius?
+                                Voluptate, nisi nesciunt.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- css -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <img
+                                src="https://i.ibb.co/r7G6fDn/css-3.png"
+                                alt="CSS Badge"
+                                title="Skúsenosť s CSS a SASS"
+                                width="64"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <h4>CSS & SASS</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Veniam quisquam magnam eius?
+                                Voluptate, nisi nesciunt.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- javascript -->
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <img
+                                src="https://i.ibb.co/yR3Hfgw/js.png"
+                                alt="JS Badge"
+                                title="Skúsenosť s Javascriptom a ES6"
+                                width="64"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="text-align: center; vertical-align: middle"
+                            >
+                              <h4>Javascript</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Veniam quisquam magnam eius?
+                                Voluptate, nisi nesciunt.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="4" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- ABOUT ME & PROJECTS-->
+        <tr>
+          <td class="padding">
+            <table width="100%">
+              <td class="two-columns">
+                <!-- about -->
+                <table class="column" style="padding: 0 30px">
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/T4MZnPg/user-shape.png"
+                        alt="ikona pre sekciu o uchádzačovi"
+                        width="16"
+                      />
+                      <!-- &nbsp -->
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4 style="display: inline-block">Zopár slôv o mne</h4>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo natus nostrum perferendis eius deserunt odio
+                        est corporis dolor eveniet delectus qui in modi vero,
+                        perspiciatis sit placeat quos quod. Ullam.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- projects -->
+                <table
+                  class="column"
+                  style="padding: 0 30px; vertical-align: top"
+                >
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/3MpXtHr/tack-save-button-1.png"
+                        alt="ikona pre sekciu o projektoch"
+                        width="16"
+                      />
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4 style="display: inline-block">Nedávne projekty</h4>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <p>BARBERS Landing Page</p>
+                      <p style="padding-bottom: 10px">
+                        <a
+                          style="color: #f755f8"
+                          href="https://melodic-empanada-155630.netlify.app/"
+                          target="_blank"
+                          >Zobraziť projekt</a
+                        >
+                      </p>
+                      <p>StreetFood Landing Page</p>
+                      <p style="padding-bottom: 10px">
+                        <a
+                          style="color: #f755f8"
+                          href="https://melodic-khapse-7e1369.netlify.app/"
+                          target="_blank"
+                          >Zobraziť projekt</a
+                        >
+                      </p>
+                      <p>Reštauračné Menu</p>
+                      <p style="padding-bottom: 10px">
+                        <a
+                          style="color: #f755f8"
+                          href="https://zesty-sunshine-1bc3e6.netlify.app/"
+                          target="_blank"
+                          >Zobraziť projekt</a
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="4" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- EDUCATION & LANGUAGE -->
+        <tr>
+          <td class="padding">
+            <table width="100%">
+              <td class="two-columns">
+                <!-- education -->
+                <table
+                  class="column"
+                  style="padding: 0 30px; vertical-align: top"
+                >
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/g382YtQ/mortarboard.png"
+                        alt="ikona pre sekciu o vzdelaní uchádzača"
+                        width="16"
+                      />
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4 style="display: inline-block">Vzdelanie</h4>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <p>Gymnázium Jána Hollého</p>
+                      <p>Trnava</p>
+                      <p>2008-2012</p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- languages -->
+                <table
+                  class="column"
+                  style="padding: 0 30px; vertical-align: top"
+                >
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/wgKHVjS/world-shape-public-symbol.png"
+                        alt="ikona pre sekciu o jazykových schopnostiach uchádzača"
+                        width="16"
+                      />
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4>Jazyky</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <table width="100%" style="border-spacing: 20px 0px">
+                        <tr>
+                          <td style="padding-right: 30px">Angličtina</td>
+                          <td>B2</td>
+                        </tr>
+                        <tr>
+                          <td>Francúzština</td>
+                          <td>základy</td>
+                        </tr>
+                        <tr>
+                          <td>Maďarčina</td>
+                          <td>základy</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="4" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- COURSES & WORK EXP -->
+        <tr>
+          <td class="padding">
+            <table width="100%">
+              <td class="two-columns">
+                <!-- courses -->
+                <table
+                  class="column"
+                  style="padding: 0 30px; vertical-align: top"
+                >
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/WgTsd19/sort-button-with-three-lines.png"
+                        alt="ikona pre sekciu o kurzoch"
+                        width="16"
+                      />
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4 style="display: inline-block">Absolvované kurzy</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <p>Javascript</p>
+                      <p>
+                        <a
+                          style="color: #f755f8; display: block"
+                          href="https://www.udemy.com/certificate/UC-192ffbd0-401d-42d7-b0a2-1483ef07114e/"
+                          target="_blank"
+                          >Zobraziť certifikát</a
+                        >
+                      </p>
+                      <p>
+                        <a
+                          style="color: #f755f8; display: block"
+                          href="https://www.udemy.com/certificate/UC-9a35a05f-08c4-4256-859b-0b79ac5155ef/"
+                          target="_blank"
+                          >Zobraziť certifikát</a
+                        >
+                      </p>
+
+                      <p style="padding-top: 10px">CSS</p>
+                      <p>
+                        <a
+                          style="color: #f755f8; display: block"
+                          href="https://www.udemy.com/certificate/UC-c90250bd-92bf-417a-9732-31778af2ec44/"
+                          target="_blank"
+                          >Zobraziť certifikát</a
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- work experience -->
+                <table
+                  class="column"
+                  style="padding: 0 30px; vertical-align: top"
+                >
+                  <tr>
+                    <td style="text-align: left; vertical-align: top">
+                      <img
+                        class="icon"
+                        src="https://i.ibb.co/R7HhYBK/work-briefcase.png"
+                        alt="ikona pre sekciu o predchádzajúcich zamestnaniach uchádzača"
+                        width="16"
+                        style=""
+                      />
+                    </td>
+                    <td style="text-align: center; vertical-align: middle">
+                      <h4 style="display: inline-block">Pracovné skúsenosti</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align: left">
+                      <table width="100%" style="border-spacing: 20px 0">
+                        <tr>
+                          <td>COOP Jednota</td>
+                          <td>Skladník</td>
+                        </tr>
+                        <tr>
+                          <td>Exisport</td>
+                          <td>Asistent Predaja</td>
+                        </tr>
+                        <tr>
+                          <td>IMVTrans</td>
+                          <td>Špeditér</td>
+                        </tr>
+                        <tr>
+                          <td>B&M Liverpool</td>
+                          <td>Picker</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="4" style="background-color: #581c5c"></td>
+        </tr>
+        <!-- MORE -->
+        <tr>
+          <td class="padding">
+            <table width="100%">
+              <tr>
+                <h4 style="text-align: center; vertical-align: middle">
+                  Nájdete ma aj na...
+                </h4>
+              </tr>
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td
+                        style="text-align: center; vertical-align: middle"
+                        class="padding"
+                      >
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/f0Zf4Pc/github.png"
+                          alt="ikona pre odkaz na www.github.com"
+                          width="16"
+                        />
+                      </td>
+                      <td style="text-align: center; vertical-align: middle">
+                        <a href="https://github.com/radovanbotik">Github</a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td
+                        style="text-align: left; vertical-align: top"
+                        class="padding"
+                      >
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/YQ12NSV/linkedin-logo.png"
+                          alt="ikona pre odkaz na www.linkedin.com"
+                          width="16"
+                        />
+                      </td>
+                      <td style="text-align: center; vertical-align: middle">
+                        <a href="https://www.linkedin.com/in/radovan-botik"
+                          >LinkedIn</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td
+                        style="text-align: center; vertical-align: middle"
+                        class="padding"
+                      >
+                        <img
+                          class="icon"
+                          src="https://i.ibb.co/Bg5wdfM/soundcloud.png"
+                          alt="ikona pre odkaz na www.soundcloud.com"
+                          width="16"
+                        />
+                      </td>
+                      <td style="text-align: center; vertical-align: middle">
+                        <a href="https://soundcloud.com/user-907264172"
+                          >Github</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BOTTOM BORDER -->
+        <tr>
+          <td height="8" style="background-color: #581c5c"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

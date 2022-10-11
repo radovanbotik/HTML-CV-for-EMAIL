@@ -1,0 +1,111 @@
+color-main: #581c5c; color-bg : #eee5e7; color-ambience: #a4aab1; color-strong:
+#f755f8; color-accent:#69437c; photo:
+https://i.ibb.co/1vTMZW4/transaprent-sm.png; phone:
+https://i.ibb.co/N1KZRcd/smartphone.png;
+mail:https://i.ibb.co/CMSQWVn/message.png;
+adress:https://i.ibb.co/09dvKN4/placeholder.png;
+about:https://i.ibb.co/T4MZnPg/user-shape.png;
+courses:https://i.ibb.co/WgTsd19/sort-button-with-three-lines.png; javascript
+<a
+  style="color: #69437c"
+  href="https://www.udemy.com/certificate/UC-192ffbd0-401d-42d7-b0a2-1483ef07114e/"
+  target="_blank"
+  >Zobraziť certifikát</a
+>
+<a
+  style="color: #69437c"
+  href="https://www.udemy.com/certificate/UC-9a35a05f-08c4-4256-859b-0b79ac5155ef/"
+  target="_blank"
+  >Zobraziť certifikát</a
+>
+CSS
+<a
+  style="color: #69437c"
+  href="https://www.udemy.com/certificate/UC-c90250bd-92bf-417a-9732-31778af2ec44/"
+  target="_blank"
+  >Zobraziť certifikát</a
+>
+UDEMY
+<a
+  style="color: #69437c"
+  href="https://www.udemy.com/user/radovan-botik/?key=subscribed_courses&subscribed_courses=1"
+  target="_blank"
+  >Zobraziť Profil</a
+>
+
+projects: https://i.ibb.co/3MpXtHr/tack-save-button-1.png
+<p>BARBERS Landing Page</p>
+<p style="padding-bottom: 10px">
+  <a
+    style="color: #69437c"
+    href="https://melodic-empanada-155630.netlify.app/"
+    target="_blank"
+    >Zobraziť projekt</a
+  >
+</p>
+<p>StreetFood Landing Page</p>
+<p style="padding-bottom: 10px">
+  <a
+    style="color: #69437c"
+    href="https://melodic-khapse-7e1369.netlify.app/"
+    target="_blank"
+    >Zobraziť projekt</a
+  >
+</p>
+<p>Reštauračné Menu</p>
+<p style="padding-bottom: 10px">
+  <a
+    style="color: #69437c"
+    href="https://zesty-sunshine-1bc3e6.netlify.app/"
+    target="_blank"
+    >Zobraziť projekt</a
+  >
+</p>
+
+education: https://i.ibb.co/g382YtQ/mortarboard.png; work-exp:
+https://i.ibb.co/R7HhYBK/work-briefcase.png;
+<table style="border-spacing: 0">
+  <tr>
+    <th style="padding: 0 20px 10px 0">Zamestnávateľ</th>
+    <th style="padding: 0 0 10px 0">Pozícia</th>
+  </tr>
+  <tr>
+    <th>COOP Jednota</th>
+    <td>Skladník</td>
+  </tr>
+  <tr>
+    <th>Exisport</th>
+    <td>Asistent Predaja</td>
+  </tr>
+  <tr>
+    <th>IMVTrans</th>
+    <td>Špeditér</td>
+  </tr>
+  <tr>
+    <th>B&M Liverpool</th>
+    <td>Picker</td>
+  </tr>
+</table>
+
+language: https://i.ibb.co/wgKHVjS/world-shape-public-symbol.png
+<table>
+  <tr>
+    <th style="padding-right: 20px">Anglický Jazyk</th>
+    <td>B2</td>
+  </tr>
+  <tr>
+    <th style="padding-right: 20px">Francúzsky Jazyk</th>
+    <td>základy</td>
+  </tr>
+  <tr>
+    <th style="padding-right: 20px">Maďarský Jazyk</th>
+    <td>základy</td>
+  </tr>
+</table>
+
+more: https://i.ibb.co/7b6DQZV/group.png; github:
+https://i.ibb.co/f0Zf4Pc/github.png https://github.com/radovanbotik
+linkedin:https://i.ibb.co/YQ12NSV/linkedin-logo.png;
+https://www.linkedin.com/in/radovan-botik
+soundcloud:https://i.ibb.co/Bg5wdfM/soundcloud.png
+https://soundcloud.com/user-907264172;
